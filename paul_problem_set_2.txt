@@ -1,3 +1,4 @@
+Name: Jacob Paul
 Collaborators: Taylor Lawrence, Hannah Weber, Marissa Kelley
 
 1. cd ~  -> the working directory will be changed to whatever comes after the command, in this case the home folder (~). Nothing will be printed to the command line.
