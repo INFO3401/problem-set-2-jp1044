@@ -29,3 +29,7 @@ B. The home directory is often where you are working from, and this shortcut pre
 C. Having a shortcut to the parent directory allows us to get to the directory above our working directory without having to type out an absolute path every time. Instead of typing "cd /Users/jacobpaul/Documents/info3401/" to get back to "info3401" from a folder within that directory, I can just type "cd ..".
 
 4. /homework/problem1
+
+5. mv ~/Documents/datafile.csv ./datafile.csv  ->  command used to move the file
+cp ~/Documents/datafile.csv ./datafile.csv  ->  command that should have been used to move the file
+cp ./datafile.csv ~/Documents/datafile.csv
