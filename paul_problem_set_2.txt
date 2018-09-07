@@ -1,0 +1,30 @@
+Collaborators: Taylor Lawrence, Hannah Weber, Marissa Kelley
+
+1. cd ~  -> the working directory will be changed to whatever comes after the command, in this case the home folder (~). Nothing will be printed to the command line.
+
+mkdir ./problem_set_1  -> this will make a directory in the home folder (~) called "problem_set_1". Nothing will be printed in the command line.
+
+touch submission.txt  ->  this will create a new file called "submission.txt" in the current working directory (~). Nothing will be printed in the command line.
+
+cd .. -> this will change the working directory to the parent of the current working directory. In this case, the working directory will be changed to "/Users". Nothing will be printed in the command line.
+
+pwd -> this will print the current working directory. In this case, it will print "/Users"
+
+
+2. cp ~/config.txt /  -> copy the config.txt to the root directory
+mkdir /preferences  -> make directory in root called "preferences"
+cd /preferences  -> change working directory to /preferences
+cp ~/preferences/prefs.txt ./prefs.txt  -> copy prefs.txt to the current directory /preferences
+head /config.txt  -> look at start of config.txt in root
+head ~/config.txt -> look at start of config.txt in home directory
+tail /config.txt -> look at end of config.txt in root
+tail ~/config.txt -> look at end of config.txt in home directory
+
+
+3. A. This is the ultimate parent directory on the computer, so it is important to have a shortcut here in case you need to know the absolute path of a file/folder or need to "reset" and get back to the "beginning".
+
+B. The home directory is often where you are working from, and this shortcut prevents me from having to type "/Users/jacobpaul" every time I want to access my documents or other folders within my home directory.
+
+C. Having a shortcut to the parent directory allows us to get to the directory above our working directory without having to type out an absolute path every time. Instead of typing "cd /Users/jacobpaul/Documents/info3401/" to get back to "info3401" from a folder within that directory, I can just type "cd ..".
+
+4. /homework/problem1
